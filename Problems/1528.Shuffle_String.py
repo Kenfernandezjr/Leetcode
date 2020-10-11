@@ -7,7 +7,7 @@ class Solution:
         # in the list i am creating a list with each element as 0
         # that will be replaced
         for k,v in tup:
-        # this is the the for loop that will loop through each index of the tuple
+        # this is the for loop that will loop through each index of the tuple
           list2[k] = v
           # list2 will be getting the value placed at the index that is given by k
         return(''.join(list2))
